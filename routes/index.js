@@ -1,7 +1,7 @@
 const router = require('express').Router()
 
 router.get('/', (req, res) => {
-  res.status(500).send([
+  res.status(200).send([
     {
       project: 'Ticket Xpo',
       url: 'https://api.ariebrainware/xpo/v1',
