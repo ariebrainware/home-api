@@ -4,7 +4,11 @@ router.get('/', (req, res) => {
   res.status(200).send([
     {
       project: 'Ticket Xpo',
-      url: 'https://api.ariebrainware/xpo/v1',
+      url: 'https://api.ariebrainware.com/xpo/v1',
+    },
+    {
+      project: 'Galonku API',
+      url: 'https://api.ariebrainware.com/galonku/v1',
     }
   ])
 })
